@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact - EASY FIX MOBILE CARE</title>
+        <link rel="stylesheet" href="portsty.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="port.html"><img src="easyfixlogo.png" alt="Easy Fix Logo"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="port.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li class="BUTTON"><a href="wrap.html">EASY WRAP</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+
+        <!-------------------------Contact Content------------------------------->
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <h2>Get in Touch</h2>
+                    <p>
+                       Address: 123 Easy Fix Road, Dharan, Nepal<br>
+                       Phone: <a href="tel:+9779812345678">+977 9812345678</a><br>
+                       Email: <a href="mailto:support@easyfixmobile.com">support@easyfixmobile.com</a><br>
+                    </p>
+                    <h3>Send Us a Message</h3>
+                    <form action="submit_contact.php" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-col">
+                    <h3>Our Location</h3>
+                    <!-- Embedded Google Map -->
+                    <!-- Updated Embedded Google Map -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.9993053132626!2d87.27691561626992!3d26.803520979564186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef626eaaaab567%3A0xf9c357a3b5d36f55!2sDharan%201%2C%20Dharan!5e0!3m2!1sen!2snp!4v1695138247327!5m2!1sen!2snp" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+            </div>
+        </section>
+
+        <!---------------------------------------------------------------footer------------------------------------>
+        <section class="footer">
+            <h4>Why Choose Easy Fix Mobile Care?</h4>
+            <p>Affordable Pricing: Enjoy top-notch service at competitive prices with no surprises.<br>
+               Quick Turnaround: We value your time, offering fast repairs to get you back on track.<br>
+               High-Quality Parts: We use only the best components to ensure your device works like new.<br>
+               Expert Technicians: Our team consists of experienced professionals who are experts in the latest mobile technology.<br>
+            </p>
+            <br><br><p>Developer <a href="https://www.facebook.com/profile.php?id=100016915351599">Aman Sah</a></p>
+        </section>
+       
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu() {
+                navlinks.style.right = "0";
+            }
+            function hidemenu() {
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog - EASY FIX MOBILE CARE</title>
+        <link rel="stylesheet" href="portsty.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="port.html"><img src="easyfixlogo.png" alt="Easy Fix Logo"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="port.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li class="BUTTON"><a href="wrap.html">EASY WRAP</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>Our Blog</h1>
+        </section>
+
+        <!-------------------------Blog Section------------------------------->
+        <section class="blog-section">
+            <div class="container">
+                <div class="blog-card">
+                    <img src="software.jpg" alt="Mobile Repair Tips">
+                    <h2>Top 5 Tips to Extend Your Mobile's Lifespan</h2>
+                    <p>In this blog, we share some valuable tips on how to keep your smartphone running smoothly for longer.</p>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <img src="battery.jpg" alt="Mobile Accessories">
+                    <h2>Best Mobile Accessories to Improve Your Device Experience</h2>
+                    <p>Discover the best mobile accessories that can enhance your phone's performance and usability.</p>
+                    <a href="blog2.html" class="btn">Read More</a>
+                </div>
+                <div class="blog-card">
+                    <img src="water-damage.jpeg" alt="Water Damage Repair">
+                    <h2>How to Save Your Phone from Water Damage</h2>
+                    <p>Learn the first steps you should take when your phone gets wet and what we can do to help.</p>
+                    <a href="blog3.html" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------------Footer------------------------------->
+        <section class="footer">
+            <h4>Why Choose Easy Fix Mobile Care?</h4>
+            <p>Affordable Pricing: Enjoy top-notch service at competitive prices with no surprises.<br>
+               Quick Turnaround: We value your time, offering fast repairs to get you back on track.<br>
+               High-Quality Parts: We use only the best components to ensure your device works like new.<br>
+               Expert Technicians: Our team consists of experienced professionals who are experts in the latest mobile technology.<br>
+            </p>
+            <br><br><p>Developer <a href="https://www.facebook.com/profile.php?id=100016915351599">Aman Sah</a></p>
+        </section>
+
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu() {
+                navlinks.style.right = "0";
+            }
+            function hidemenu() {
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

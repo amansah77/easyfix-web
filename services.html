@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Easy Fix Mobile Care</title>
+    <link rel="stylesheet" href="portsty.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="s-header">
+        <nav>
+            <a href="port.html"><img src="easyfixlogo.png" alt="Easy Fix Logo"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="port.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li class="BUTTON"><a href="wrap.html">EASY WRAP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+    </section>
+
+    <!-------------------------services content----------------------------------------------------->
+    <section class="services">
+        <div class="row">
+            <div class="services-col">
+                <h2>Screen Replacement</h2>
+                <img src="screen-replacement.jpg" alt="Screen Replacement">
+                <p>Get your cracked or broken screen replaced with high-quality parts. Fast and reliable service guaranteed.</p>
+            </div>
+            <div class="services-col">
+                <h2>Battery Replacement</h2>
+                <img src="battery.jpg" alt="Battery Replacement">
+                <p>Replace your old or faulty battery to keep your device running like new. Our technicians ensure optimal performance.</p>
+            </div>
+            <div class="services-col">
+                <h2>Water Damage Repair</h2>
+                <img src="water-damage.jpeg" alt="Water Damage Repair">
+                <p>Accidentally dropped your phone in water? Don’t worry! We offer specialized water damage repair services.</p>
+            </div>
+            <div class="services-col">
+                <h2>Software Troubleshooting</h2>
+                <img src="software.jpg" alt="Software Troubleshooting">
+                <p>Facing software issues? Our experts diagnose and resolve software problems to keep your device running smoothly.</p>
+            </div>
+            <div class="services-col">
+                <h2>Charging Port Repair</h2>
+                <img src="charging.jpg" alt="Charging Port Repair">
+                <p>If your phone isn't charging properly, we can fix or replace your charging port to restore full functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------------------------------------footer------------------------------------>
+    <section class="footer">
+        <h4>Why Choose Easy Fix Mobile Care?</h4>
+        <p>Affordable Pricing: Enjoy top-notch service at competitive prices with no surprises.<br>
+           Quick Turnaround: We value your time, offering fast repairs to get you back on track.<br>
+           High-Quality Parts: We use only the best components to ensure your device works like new.<br>
+           Expert Technicians: Our team consists of experienced professionals who are experts in the latest mobile technology.<br>
+        </p>
+        <br><br><p>Developer <a href="https://www.facebook.com/profile.php?id=100016915351599">Aman Sah</a></p>
+    </section>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
