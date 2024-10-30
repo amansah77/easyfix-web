@@ -51,14 +51,28 @@ nav img{
 .BUTTON{
     display: inline-block;
     text-decoration: none;
-    border: 1px solid white;
-    padding: 12px 34px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 7px 20px;
     font-size: 15px;
     background:orangered;
     position: relative;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;  
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
 
+.BUTTON > a{
+    color: white;
+    text-decoration: none;
+}
 
+.BUTTON:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
 }
 
 
@@ -81,18 +95,21 @@ nav img{
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color:aqua;
-    border: 1px solid white;
+    background-color: rgb(255, 98, 0);
+    border: 2px solid transparent;
+    border-radius: 10px;
     padding: 10px 34px;
     font-size: 15px;
-    background: transparent;
     position: relative;
     cursor: pointer;
+    color: white;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
 }
 .hero-btn:hover{ 
-    border: 1px solid orangered;
-    background:orangered;
-    transition: 0.5s;
+    border: 2px solid rgb(255, 98, 0);
+    background:transparent;
+    color: rgb(255, 98, 0);
 }
 nav .fa{
     display: none;
@@ -313,12 +330,15 @@ h3{
 }
 .footer h4{
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 600;
+    font-size: 40px;
 }
 .footer p{
-    color: gray;
+    color: white;
 }
+
+
 .sub-header{
     width: 100%;
     min-height: 50vh;
@@ -375,7 +395,7 @@ h3{
 
 .services-col {
     flex-basis: 30%;
-    margin-bottom: 30px;
+    margin: 0 10px 30px 10px;
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -673,4 +693,25 @@ h3{
 
 .blog-card .btn:hover {
     background-color: #e64a19;
+}
+
+.footer-name{
+    color: yellow;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer .footer-name{
+    color: yellow;
+}
+
+.footer .footer-text{
+    text-align: center;
+    margin: 10px 50px 10px 50px;
+}
+
+.footer h4{
+    font-size: 50px;
 }
